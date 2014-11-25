@@ -20,7 +20,7 @@ body {
 }
 
 .ryu-ready {
-  background-image: url("../images/ryu-ready-position.gif.webloc");
+  background-image: url("../images/ryu-ready-position.gif");
 }
 
 .ryu-still {
@@ -29,7 +29,7 @@ body {
 }
 
 .ryu-throwing {
-  background-image: url("../images/ryu-throwing-hadouken.png.webloc");
+  background-image: url("../images/ryu-throwing-hadouken.png");
   display: block;
 }
 
