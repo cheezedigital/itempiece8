@@ -4,17 +4,21 @@ $(document).ready(function() {
 		$('.ryu-still').hide();
 		$('.ryu-ready').show();
 	});
-	.mouseleave(function) {
-		// alert('mouse left');
+
+	$('.ryu').mouseleave(function() {
+		alert('mouse left');
 		$('.ryu-ready').hide();
 		$('.ryu-still').show();
 	});
-	.mousedown(function) {
-		console.log('mousedown');
-		//play sound
-		//show hadouken
+
+	$('.ryu').mousedown(function() {
+		$('.ryu-ready').hide();
+		$('.ryu-throwing').show();
+		$('.hadouken').show();
 	});
-	.mouseup(function) {
-		console.log('mouseup');
+
+	$('.ryu').mouseup(function() {
+		$('.ryu-throwing').hide();
+		$('.ryu-ready').show();
 	});
 });
