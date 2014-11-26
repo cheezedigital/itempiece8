@@ -2,7 +2,7 @@ body {
   background-color: #1e1e1e;
 }
 
-.ryu {
+.main {
   background-color: white;
   margin-top: 110px;
   padding-left: 100px;
@@ -15,7 +15,7 @@ body {
   height: 494px;
 }
 
-.ryu-ready, .ryu-throwing {
+.ryu-ready, .ryu-throwing, .ryu-cool {
   display: none;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .ryu-cool {
-  background-image: url('../images/ryu-cool.gif');
+  background-image: url("../images/ryu-cool.gif");
 }
 
 .ryu-throwing {
