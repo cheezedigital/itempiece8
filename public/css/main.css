@@ -9,6 +9,9 @@ body {
   min-width: 1200px;
   height: 500px;
 }
+.ryu {
+  float: left;
+}
 
 .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
   width: 659px;
@@ -47,7 +50,7 @@ body {
   height: 90px;
   display: none;
   position: relative;
-  top: 0px;
-  left: 0px;
+  top: 167px;
+  left: -212px;
   float: left;
 }
